@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Struttura Discord</title>
+    <link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,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">
+</head>
+<body>
+
+     <header>
+        <!-- HEADER TOP -->
+        <div class="header-top-container">
+           <span class="logo top">
+              <a href="#"><img src="img/logo.svg" alt="logo Discord"></a>
+           </span>
+           <span class="link ">
+             <ul class="header-ul">
+               <li class="header-li"> <a href="#">Scarica</a> </li>
+               <li class="header-li"><a href="#">Perchè Discord</a></li>
+               <li class="header-li"> <a href="#">Nitro</a></li>
+               <li class="header-li"> <a href="#">Sicurezza</a></li>
+               <li class="header-li">  <a href="#">Assistenza</a></li>
+           </ul>
+           </span>
+           <span class="button top">
+             <a class="general-button white-button" type="button" href="#">Accedi</a> 
+           </span>
+        </div>
+
+         <!-- HEADER BOTTOM -->
+        <div class="header-buttom-container">
+             <div class="text-container">
+                 <h1 class="h1-header">Il tuo posto per parlare</h1>
+                 <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso</p>
+
+                 <div class="bottoni">
+                    <a class="general-button white-button" type="button" href="#"> &darr; Scarica per Mac </a>
+                    <a class="general-button black-button" type="button" href="#"> Apri Discord nel tuo browser </a>
+                </div>     
+            </div>  
+        </div>
+     </header>
+
+        <!-- INIZIO MAIN -->
+     <main>
+
+          <div class="flexbox">
+
+             <div class="immagine">
+                <img src="img/item1.svg" alt="immagine1">
+             </div>
+           
+             <div class="testo">
+                 <h1 class="main-h1">Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                 <p class="main-paragraph"> I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+             </div>
+         </div> 
+
+          <div class="flexbox  grey-wave">
+
+             <div class="testo">
+               <h1 class="main-h1"> Dove trovarsi è facile</h1>
+               <p class="main-paragraph"> Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e inserirsi istantaneamente senza dover chiamare.</p>
+             </div>
+               
+             <div class="immagine">
+               <img src="img/item2.svg" alt="immagine2">
+             </div>
+         </div>
+
+         <div class="flexbox">
+
+             <div class="immagine">
+               <img src="img/item3.svg" alt="immagine1">
+             </div>
+          
+             <div class="testo">
+                <h1 class="main-h1">Da pochi a un fandom</h1>
+                <p class="main-paragraph"> Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro. </p>
+             </div>
+         </div> 
+           
+
+         <div class="flexbox grey-wave">  
+
+             <div class="main-big-container">
+                 <h1 class="last-main-h1">Tecnologia affidabile per tenersi in contatto</h1>
+                 <p class="last-main-paragraph"> Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza.Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+                 <img src="img/item4-big.svg" alt="immagine4">
+
+                  <div class="container-h3">
+                     <h3>Pronto a iniziare la tua avventura?</h3>
+                 </div>
+
+                 <div class="bottoni">
+                    <a class="general-button violet-button" type="button" href="#">&darr; Scarica per Mac</a>
+                 </div>
+             </div>
+         </div> 
+     </main>
+
+     <!-- INIZIO FOOTER -->
+     <footer>
+          <!-- FOOTER TOP -->
+          <div class="footer-container">
+             <div class="big-column">
+                  <h2>Il tuo posto per parlare</h2>
+                  <a href="#"><img class="bandiera" src="img/ita.png" alt="bandiera italia"></a>
+                  <a href="#"><span class="italiano">Italiano</span></a>
+                <a href="#"><i class="fa-solid fa-chevron-down"></i></a>  
+
+                  <div class="simboli">
+                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                 </div>
+             </div>
+
+
+
+             <div class="column">
+                <ul class="ul-footer">
+                    <li class="violet-item">Prodotto</li>
+                    <li class="li-footer"> <a href="#">Scarica</a> </li>
+                    <li class="li-footer"> <a href="#">Perché Discord</a> </li>
+                    <li class="li-footer"> <a href="#">Nitro</a> </li>
+                    <li class="li-footer"> <a href="#"> Sicurezza</a></li>
+                    <li class="li-footer"> <a href="#">Assistenza</a> </li>
+
+                </ul>
+             </div>
+
+
+             <div class="column">
+                <ul class="ul-footer">
+                    <li class="violet-item">Compagnia</li>
+                    <li class="li-footer"> <a href="#">Chi siamo</a></li>
+                    <li class="li-footer"> <a href="#">Lavora con noi</a></li>
+                    <li class="li-footer"> <a href="#">Marchio</a></li>
+                    <li class="li-footer"> <a href="#">Redazione</a></li>
+                    <li class="li-footer"> <a href="#"> Negozio</a></li>
+
+                </ul>
+             </div>
+
+
+             <div class="column">
+                <ul class="ul-footer">
+                    <li class="violet-item">Risorse</li>
+                    <li class="li-footer"> <a href="#">Scarica</a> </li>
+                    <li class="li-footer"> <a href="#">Perché Discord</a> </li>
+                    <li class="li-footer">  <a href="#"> Nitro</a></li>
+                    <li class="li-footer"> <a href="#">Sicurezza</a> </li>
+                    <li class="li-footer"> <a href="#">Assistenza</a> </li>
+                    <li class="li-footer"> <a href="#">Scarica</a> </li>
+                    <li class="li-footer"> <a href="#">Perché Discord</a> </li>
+                    <li class="li-footer"> <a href="#">Nitro</a> </li>
+                    <li class="li-footer"> <a href="#">Sicurezza</a> </li>
+                    <li class="li-footer">  <a href="#">Assistenza</a> </li>
+               </ul>
+             </div>
+
+             <div class="column">
+                <ul class="ul-footer">
+                    <li class="violet-item">Norme</li>
+                    <li class="li-footer"> <a href="#">Scarica</a> </li>
+                    <li class="li-footer"> <a href="#">Perché Discord</a> </li>
+                    <li class="li-footer"> <a href="#">Nitro</a> </li>
+                    <li class="li-footer"> <a href="#"> Sicurezza</a></li>
+                    <li class="li-footer"> <a href="#">Assistenza</a> </li>
+                </ul>
+             </div>
+          </div> 
+          <hr>
+    
+          <!-- FOOTER BOTTOM -->
+          <div class="footer-bottom-container">
+             <div class="gold-rectangles">
+                <div class="logo-footer" >
+                   <a href="#"><img src="img/logo.svg" alt="logo"></a> 
+                </div>
+
+                <div class="bottone-footer">
+                    <a class="violet-button general-button" href="#">Registrati</a>
+                </div>
+             </div> 
+         </div>
+      </footer>
+</body>
+</html>
+
+

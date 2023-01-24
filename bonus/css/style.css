@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        font-size: 17px;
+    }
+    
+    header{
+    background-color:rgb(38, 94, 233)
+    
+    }
+    
+    .header-top-container{
+    min-height: 60px;
+    display: flex;
+    margin: auto;
+    width: 1170px;
+    
+    }
+    
+    .top{
+    padding: 20px;
+    width: 20%;
+    margin: 10px 0;
+    }
+    
+    .link{
+    width: 80%;
+    margin: 10px 0;
+    }
+    
+    
+    .header-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    }
+    
+    .header-li{
+    margin: 20px;
+    color: white;
+    }
+    
+    .logo{
+    text-align: left;
+    }
+    
+    .general-button{
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+    }
+
+    .general-button:hover{
+        box-shadow: 1px 2px 5px rgba(211, 211, 211, 0.871);
+    }
+    
+    .white-button{
+        background-color: white;
+        margin-right: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .white-button:hover{
+        color: rgb(113, 117, 218);
+    }
+    
+    .black-button{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .violet-button{
+        color: white;
+        background-color: rgb(113, 117, 218);
+        text-decoration: none;
+    }
+    
+
+
+   .bottoni{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+    
+    
+    .button{
+    text-align: right ;
+    }
+    
+    .header-buttom-container{
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        width: 100%;
+        min-height: 520px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .text-container{
+        max-width: 600px;
+        min-height: 300px;
+    
+    }
+    
+    .h1-header{
+        color: white;
+        text-align: center;
+        padding: 50px 0 20px 0;
+    }
+    
+    p{
+        color: white;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    main{
+    max-width: 1170px;
+    min-height: 300px;
+    margin: 0 auto;
+    }
+    
+    .flexbox{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .immagine{
+    margin: 20px 0;
+    }
+    
+    
+    .testo{
+    width: 350px;
+    margin: 20px 0;
+    }
+    
+    .main-paragraph{
+        color: black;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .main-h1{
+        margin-top: 25px;
+    }
+    
+    .grey-wave{
+    background-color: rgb(246, 246, 246);
+    }
+    
+    .main-big-container{
+    width: 850px;
+    margin: 40px 0;
+    }
+    
+    .last-main-h1{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .last-main-paragraph{
+        color: black;
+        padding: 10px;
+    }
+    
+    .container-h3{
+       max-width: 1170px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(246, 246, 246);
+      
+    }
+    
+     h3{
+        background-image: url(../img/stars.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          padding: 20px;
+    }
+    
+    
+    footer{
+    background-color:rgb(35, 39, 42);
+    width: 1170px;
+    margin: auto;
+    }
+    
+    .footer-container{
+    max-width: 1170px;
+    min-height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .big-column{
+    width: 220px;
+    margin-top: 20px;
+    }
+    
+    h2{
+        color: rgb(113, 117, 218);
+        padding: 10px;
+    }
+    
+    .italiano{
+        color: white;
+    }
+    
+    .bandiera{
+        max-width: 20px;
+        margin-left: 10px;
+    }
+    
+    .fa-chevron-down{
+        color: white;
+    }
+    
+    .fa-brands{
+        padding-top: 3px;
+        margin: 5px;
+        color: white;
+    
+    }
+    
+    .column{
+    width: 160px;
+    margin-top: 20px;
+    }
+    
+    .violet-item{
+        color: rgb(113, 117, 218);
+    }
+    
+    .ul-footer{
+        list-style: none;
+        padding: 5px;
+    }
+    
+    .li-footer{
+        color: white;
+        margin-top: 10px;
+    }
+    
+    hr{
+    margin: 20px 0 ;
+    }
+    
+    .footer-bottom-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .gold-rectangles{
+    display: flex;
+    justify-content: space-between;
+    min-width: 550px;
+    min-height: 40px;
+    }
+    
+    .logo-footer .bottone-footer{
+    padding: 10px;
+    margin: 10px 0;
+    }
+
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        text-decoration: underline;
+    }
