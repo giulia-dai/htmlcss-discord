@@ -4,8 +4,12 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+    font-size: 17px;
+}
+
 header{
-background-color: lightgrey;
+background-color:rgb(38, 94, 233)
 
 }
 
@@ -19,15 +23,11 @@ width: 1170px;
 
 .top{
 padding: 20px;
-background-color: orange;
-border: dotted 2px black;
 width: 20%;
 margin: 10px 0;
 }
 
 .link{
-background-color: orange;
-border: dotted 2px black;
 width: 80%;
 margin: 10px 0;
 }
@@ -41,10 +41,39 @@ list-style: none;
 
 li{
 margin: 20px;
+color: white;
 }
 
 .logo{
 text-align: left;
+}
+
+.general-button{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    
+}
+
+.white-button{
+    background-color: white;
+    margin-right: 10px;
+
+}
+
+.black-button{
+    background-color: black;
+    color: white;
+}
+
+.bottoni{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.bottoni:first-child::before{
+    
 }
 
 .button{
@@ -52,18 +81,32 @@ text-align: right ;
 }
 
 .header-buttom-container{
-background-color: gray;
-min-height: 300px;
-display: flex;
-justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.red-rectangles{
-background-color: red;
-width: 50%;
-min-height: 300px;
-border: 2px dotted black;
-margin: 40px 0;
+.text-container{
+    max-width: 600px;
+    min-height: 300px;
+
+}
+
+.h1-header{
+    color: white;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+p{
+    color: white;
+    line-height: 30px;
+    text-align: center;
 }
 
 .main-container{
