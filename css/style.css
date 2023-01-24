@@ -33,13 +33,13 @@ margin: 10px 0;
 }
 
 
-ul{
+.header-ul{
 display: flex;
 justify-content: center;
 list-style: none;
 }
 
-li{
+.header-li{
 margin: 20px;
 color: white;
 }
@@ -176,12 +176,9 @@ margin: 40px 0;
       padding: 20px;
 }
 
-/* .img-container{
-
-} */
 
 footer{
-background-color:greenyellow;
+background-color:rgb(35, 39, 42);
 width: 1170px;
 margin: auto;
 }
@@ -195,19 +192,52 @@ justify-content: center;
 }
 
 .big-column{
-background-color: lightpink;
-border: 2px dotted black;
-max-height: 400px;
-width: 150px;
+width: 220px;
 margin-top: 20px;
 }
 
+h2{
+    color: rgb(113, 117, 218);
+    padding: 10px;
+}
+
+.italiano{
+    color: white;
+}
+
+.bandiera{
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+.fa-chevron-down{
+    color: white;
+}
+
+.fa-brands{
+    padding-top: 3px;
+    margin: 5px;
+    color: white;
+
+}
+
 .column{
-background-color: purple;
-border: 2px dotted white;
-max-height: 400px;
-width: 100px;
+width: 160px;
 margin-top: 20px;
+}
+
+.violet-item{
+    color: rgb(113, 117, 218);
+}
+
+.ul-footer{
+    list-style: none;
+    padding: 5px;
+}
+
+.li-footer{
+    color: white;
+    margin-top: 10px;
 }
 
 hr{
@@ -223,24 +253,13 @@ justify-content: center;
 }
 
 .gold-rectangles{
-background-color: gold;
 display: flex;
 justify-content: space-between;
 min-width: 550px;
 min-height: 40px;
 }
 
-.logo-footer{
+.logo-footer .bottone-footer{
 padding: 10px;
-background-color: lightblue;
-border: 2px dotted black;
-margin: 10px 0;
-
-}
-
-.bottone-footer{
-padding: 10px;
-background-color: lightblue;
-border: 2px dotted black;
 margin: 10px 0;
 }
