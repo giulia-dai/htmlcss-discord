@@ -66,15 +66,17 @@ text-align: left;
     color: white;
 }
 
+.violet-button{
+    color: white;
+    background-color: rgb(113, 117, 218);
+}
+
 .bottoni{
     display: flex;
     justify-content: center;
     margin: 15px;
 }
 
-.bottoni:first-child::before{
-    
-}
 
 .button{
 text-align: right ;
@@ -109,12 +111,10 @@ p{
     text-align: center;
 }
 
-.main-container{
+main{
 max-width: 1170px;
 min-height: 300px;
 margin: 0 auto;
-display: flex;
-justify-content: center;
 }
 
 .flexbox{
@@ -123,32 +123,62 @@ justify-content: center;
 }
 
 .immagine{
-background-color: orchid;
-border: 2px dotted black;
-width: 300px;
 margin: 20px 0;
-
-
 }
+
 
 .testo{
-background-color: cyan;
-border: 2px dotted black;
-width: 200px;
+width: 350px;
 margin: 20px 0;
 }
 
-.yellow{
-background-color: yellow;
+.main-paragraph{
+    color: black;
+    text-align: left;
+    margin-top: 10px;
 }
 
-.seagreen-rectangles{
-background-color: seagreen;
-min-width: 600px;
-min-height: 400px;
-border: 2px dotted black;
+.main-h1{
+    margin-top: 25px;
+}
+
+.grey-wave{
+background-color: rgb(246, 246, 246);
+}
+
+.main-big-container{
+width: 850px;
 margin: 40px 0;
 }
+
+.last-main-h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.last-main-paragraph{
+    color: black;
+    padding: 10px;
+}
+
+.container-h3{
+   max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+  
+}
+
+ h3{
+    background-image: url(../img/stars.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 20px;
+}
+
+/* .img-container{
+
+} */
 
 footer{
 background-color:greenyellow;
